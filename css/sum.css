@@ -1,0 +1,456 @@
+
+/* #E0B880*/
+/* #FF3B0E*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    margin: 0 auto;
+    padding: 0;
+}
+li{
+    display: list-item;
+    text-align: center;
+    unicode-bidi: isolate;
+}
+
+.adver{
+    width: 100%;
+    height: 70px;
+    border-left: 1px;
+    border-right: 1px;
+    color: white;
+    background-color: #353434;
+}
+.navbar{
+    margin: 0 auto;
+    background-color: #353434;
+    width: 100%;
+    box-shadow: rgba(233, 228, 229, 0.25) 0px 50px 100px -20px, rgba(241, 237, 237, 0.3) 0px 30px 60px -30px, rgba(240, 242, 244, 0.35) 0px -2px 6px 0px;
+    position: sticky;
+    opacity: 0.9;
+    top: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+}
+.naw-list{
+    list-style: none;
+    float: right;
+    color: #FF943C;
+}
+.nw-item{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.nav ul{
+    display: flex;
+    margin: 20px;
+}
+.naw-list .naw-item{
+    font-size: 20px;
+    color: #E0B880;
+}
+.naw-list li{
+    margin-left: 15px;
+}
+.naw-list .naw-item:hover{
+    color: #FF3B0E;
+    transition: 0.2s ease-out;
+    text-shadow: #FF3B0E 1px 0 5px;
+}
+.malomot{
+    font-size: 120px;
+}
+.malum{
+    margin: 0;
+    background-image: url(../img/rasm.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.slidermain{
+    border: 0.1px solid #353434;
+    font-size: 35px;
+    text-align: center;
+    width: 50%;
+    transform: translate(50% , 50%) ;
+    background-color: white;
+}
+.malum p{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 40px;
+}
+.royxat{
+    border: 0.1px solid white;
+    text-align: center;
+    height: 120px;
+    background-color: #353434;
+    padding: 10px;
+}
+.container-mt{
+    width: 100%;
+}
+.malumotlar{
+    display: flex;
+    border: 1px solid white;
+    
+}
+.rel{
+    max-width: 550px;
+}
+.malumot{
+    font-size: 30px;
+    background-color: #353434;
+    color: #DBB989;
+    padding: 10px;
+}
+.malumot h6{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+}
+.malumot p{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.flaticon{
+    display: flex;
+    font-family: 30px;
+    background-color: #353434;
+    color: #DBB989;
+    margin: 20px;
+}
+.flat{
+    display: flex;
+    font-size: 30px;
+    border: 1px solid white;
+    font-family: 50px;
+    width: 100%;
+}
+.rasm{
+    display: flex;
+    width: 10px;
+}
+.flatic{
+    max-width: 253px;
+}
+.rasm1{
+   display: flex; 
+}
+.button{
+    border: 1px solid;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    background-color: #353434;
+}
+
+.aloqa{
+    border: 0.1px solid;
+    width: 99.9%;
+    height: 100px;
+    background-color: #353434;
+}
+.aloqa-mat{
+    color: #E0B880;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.gallery-link {
+    display: block;
+    padding: 10px 10px;
+    background-color: #DBB989;
+    border: 0;
+    border-radius: 50px;
+    width: 200px;
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+    transition: color 0.3s ease,
+        opacity 0.3s ease;
+}
+
+.gallery-link:hover {
+    opacity: 70%;
+    color: #000;
+}
+.naw-its{
+    color: #FF3B0E!important;
+    text-shadow: #FF3B0E 1px 0 5px;
+}
+.but{
+    display: flex;
+    margin-top: 30px;
+    margin: 10px;
+}
+.bog-link{
+    display: flex;
+    border: 1px solid #353434;
+    width: 25%;
+    padding: 0 10px;
+}
+.aloqa-locat{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.telep-link{
+    display: flex;
+    border: 1px solid #353434;
+    width: 25%;
+    padding: 0 10px;
+}
+.telep-link p{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.email-link{
+    display: flex;
+    border: 1px solid #353434;
+    width: 25%;
+    padding: 0 10px;
+}
+.mailo{
+    margin-top: 25px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.immgg{
+    max-width: 40px;
+    max-height: 40px;
+    margin-top: 20px;
+}
+.aloqa_bog{
+    border: 1px solid;
+    display: flex;
+    margin: 10px;
+}
+.aloqa-sorov{
+    border: 1px solid white;
+    width: 50%;
+    margin: 20px;
+}
+.aloqa-link{
+    display: flex;
+    width: 100%;
+}
+.boglan1{
+    font-size: 20px;
+    width: 98%;
+    padding: 10px;
+    margin-top: 7px;
+}
+.boglan2{
+    font-size: 20px;
+    width: 98%;
+    padding: 10px;
+    margin-top: 7px;
+}
+.boglan3{
+    font-size: 20px;
+    width: 98%;
+    padding: 10px;
+    margin-top: 7px;
+}
+.boglan4{
+    font-size: 20px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #353434;
+    color: white;
+    padding: 10px;
+}
+.royxat1{
+    font-size: 20px;
+    padding: 10px;
+    width: 22%;
+    margin: 10px;
+    margin-top: 15px;
+}
+.royxat2{
+    font-size: 20px;
+    padding: 10px;
+    width: 22%;
+    margin: 10px;
+    margin-top: 15px;
+}
+.royxat3{
+    font-size: 20px;
+    padding: 10px;
+    width: 22%;
+    margin: 10px;
+    margin-top: 15px;
+}
+.royxat4{
+    font-size: 20px;
+    padding: 10px;
+    width: 22%;
+    margin: 10px;
+    margin-top: 15px;
+}
+.aloqa-malumot{
+    display: flex;
+    border: 1px solid ;
+}
+.adres-malumot{
+    width: 25%;
+    border: 1px solid;
+    padding: 15px;
+    color: #E0B880;
+    background-color: #353434;
+}
+.telefon-malumot{
+    width: 25%;
+    border: 1px solid;
+    padding: 15px;
+    color: #E0B880;
+    background-color: #353434;
+}
+.email-malumot{
+    width: 25%;
+    border: 1px solid;
+    padding: 15px;
+    color: #E0B880;
+    background-color: #353434;
+}
+.tarmoq-malumot{
+    width: 25%;
+    border: 1px solid;
+    padding: 15px;
+    color: #E0B880;
+    background-color: #353434;
+    list-style: none;
+}
+.boglanish{
+    width: 100%;
+    border: 1px solid;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+footer .malumot-alo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer p, footer li {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+footer img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.tarmoq-link{
+    display: flex;
+    width: 25%;
+    border: 1px solid #353434;
+}
+.buyrt{
+    margin-top: 6
+}
+.rasm-link{
+    width: 15%;
+    margin: 10px;
+}
+.nomi-boyicha{
+    margin-top: 55px;
+    background-color: #E3E3E3;
+    border: 1px solid #BABABA;
+    padding: 15px;
+}
+.buyurt-link1{
+    width: 29%;
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 15px;
+    border: 1px solid;   
+}
+.mehmon-xaqida{
+    margin-top: 55px;
+    padding: 10px;
+    margin-left: 25px;
+
+}
+.xaqida-link{
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+.xaqida-link1{
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 5px;
+    width: 15%;
+}
+.kelish-link{
+    margin-top: 55px;
+    padding: 25px;
+    background-color: #E3E3E3;
+}
+.kelish1{
+    width: 20%;
+    margin: 10px;
+    font-size: 25px;
+    border: 1px solid;
+}
+.royxat-otish{
+    margin-top: 55px;
+    padding: 25px;
+}
+.otish1{
+    font-weight: bold;
+    margin-top: 15px;
+}
+.otish2{
+    margin-top: 15px;
+    width: 15%;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.muloqot-uchun{
+    margin-top: 55px;
+    padding: 25px;
+}
+.muloqot-uchun1{
+    font-size: 25px;
+    margin: 15px 0;
+    padding: 5px;
+    width: 30%;
+}
+.muloqot-button{
+    font-size: 25px;
+    margin-top: 10px;
+    background-color: #E3E3E3;
+    padding: 10px;
+}

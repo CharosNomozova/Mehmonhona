@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+    <link rel="stylesheet" href="../bootstrap-5/css/bootstrap.css">
+    <link rel="stylesheet" href="">
+    <style>
+      .navbar bg-light fixed-top{
+        background-color: #353434;
+      }
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#">Offcanvas dark navbar</a> -->
+      <a href="../index.html"> <img src="../img/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menyu</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Asosiy</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Yangiliklar
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="../admin/yangilik_ro'yxati.html">Yangiliklar ro'yxati</a></li>
+                <li><a class="dropdown-item" href="../admin/yangilik_qo'shish.html">Yangiliklar qo'shish</a></li> 
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Chiqish</a>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="form p-5">
+    <h1 style="margin: 50px 0;">Yangiliklar qo'shish</h1>
+    <form class="was-validated" action="../admin/index.html">
+        <div class="mb-3">
+            <select class="form-select" required aria-label="select example">
+                <option value="">Chegirmalar</option>
+                <option value="1">Yangi yil bayrami uchun</option>
+                <option value="2">8-mart uchun</option>
+                <option value="4">Navro'z bayrami uchun</option>
+                <option value="5">Ramazon uchun</option>
+                <option value="6">Qurbon hayiti uchun</option>
+            </select>
+              <div class="invalid-feedback">Example invalid select feedback</div>
+        </div>
+        <div class="mb-3">
+            <select class="form-select" required aria-label="select example">
+                <option value="">Taomlar</option>
+                <option value="1">Osh</option>
+                <option value="2">Manti</option>
+                <option value="4">Fransuzcha salat</option>
+                <option value="5">Turk kabob</option>
+                <option value="6">Tandir go'sht</option>
+            </select>
+            <div class="invalid-feedback">Example invalid select feedback</div>
+        </div>
+        <div class="mb-3">
+            <label for="validationTextarea" class="form-label">Amal qilish muddati</label>
+            <input class="form-control" type="date" placeholder="Sana kiriting">
+            <div class="invalid-feedback">Example invalid select feedback</div>
+        </div>
+        <div class="mb-3">
+          <label for="validationTextarea" class="form-label">Qisqacha</label>
+          <textarea class="form-control" id="validationTextarea" placeholder="Qisqacha malumot kiriting" required></textarea>
+          <div class="invalid-feedback">
+            Example invalid select feedback
+          </div>
+        </div>
+      
+        <!-- <div class="form-check mb-3">
+          <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
+          <label class="form-check-label" for="validationFormCheck1">Check this checkbox</label>
+          <div class="invalid-feedback">Example invalid feedback text</div>
+        </div>
+      
+        <div class="form-check">
+          <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+          <label class="form-check-label" for="validationFormCheck2">Toggle this radio</label>
+        </div>
+        <div class="form-check mb-3">
+          <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+          <label class="form-check-label" for="validationFormCheck3">Or toggle this other radio</label>
+          <div class="invalid-feedback">More example invalid feedback text</div>
+        </div> -->
+      
+        <div class="mb-3">
+          <select class="form-select" required aria-label="select example">
+            <option value="">Xonalar</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+          </select>
+          <div class="invalid-feedback">Example invalid select feedback</div>
+        </div>
+      
+        <div class="mb-3">
+          <input type="file" class="form-control" aria-label="file example" required>
+          <div class="invalid-feedback">Example invalid form file feedback</div>
+        </div>
+      
+        <div class="d-grid">
+          <button class="btn btn-primary" type="submit" disabled>Kirish</button>
+        </div>
+    </form>
+  </div>
+    <script src="../bootstrap-5/js/popper.min.js.js"></script>
+    <script src="../bootstrap-5/js/bootstrap.js"></script>
+</body>
+</html>
